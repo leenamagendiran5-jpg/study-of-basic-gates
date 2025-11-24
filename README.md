@@ -66,6 +66,7 @@ Y= A⊕B
 
 **PROGRAM**
 
+```
 module alllogic_gates (
     input  a,
     input  b,        // inputs
@@ -87,9 +88,12 @@ assign xor_out  = a ^ b;      // XOR
 assign xnor_out = ~(a ^ b);   // XNOR
 
 endmodule
-
+```
  
 **Logic symbol & Truthtable**
+
+![logic symbol and truth table](https://github.com/user-attachments/assets/691e269e-9996-44f5-b402-80c21d5c2358)
+
 
 **RTL realization Output:**
 
